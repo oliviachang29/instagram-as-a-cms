@@ -61,6 +61,7 @@ This will call the Instagram API every time someone accesses your site. Unfortun
 
 ## Deploy to Netlify and Use Zapier
 Deploy your site to Netlify, then create a Zapier zap so that a new Netlify deploy is created when a new post is added to instagram.
+
 <img src="/images/zapier-instagram-netlify.png" width="100%">
 
 
