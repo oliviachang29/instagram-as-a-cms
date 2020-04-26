@@ -21,10 +21,9 @@ Instagram Access tokens last 60 days, then need to be refreshed. Use the [Instag
 Deploy the site to Heroku, using the starting token from the previous step.
 
 ## Display the Instagram feed
-
-*Call Limit*: Instagram has a limit of 200 calls/hr, so it's easy to exceed the number of calls.
-
-Note: Instagram's Basic Display API only returns the first image of an album.
+**Notes**:
+* Instagram's Basic Display API only returns the first image of an album.
+* Instagram has a call limit of 200 calls/hr.
 
 ### Option 1: As a Jekyll Plugin
 
@@ -62,7 +61,7 @@ This will call the Instagram API every time someone accesses your site. Unfortun
 ## Deploy to Netlify and Use Zapier
 Deploy your site to Netlify, then create a Zapier zap so that a new Netlify deploy is created when a new post is added to instagram.
 
-<img src="/images/zapier-instagram-netlify.png" width="100%">
+<img src="/images/zapier-instagram-netlify.png" style="margin: 0 auto">
 
 ## 💸 Profit
 Contributors to this repo are welcome!
